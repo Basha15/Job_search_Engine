@@ -1,0 +1,42 @@
+2026-08-31 07:06:17,099 INFO ============================================================
+2026-08-31 07:06:17,194 INFO ============================================================
+2026-08-31 07:06:24,615 INFO HTTP Request: GET https://nzzrpylddectbapxpazo.supabase.co/rest/v1/jobs?select=id%2Ctitle%2Ccompany%2Cdescription_raw&status=eq.scraped&description_raw=not.is.null&limit=50 "HTTP/2 200 OK"
+2026-08-31 07:06:25,124 INFO HTTP Request: GET https://nzzrpylddectbapxpazo.supabase.co/rest/v1/jobs?select=id%2Ctitle%2Ccompany%2Cats_score%2Capply_url%2Cplatform&status=eq.matched&ats_score=gte.75&order=ats_score.desc&limit=20 "HTTP/2 200 OK"
+2026-08-31 07:06:25,982 INFO HTTP Request: GET https://nzzrpylddectbapxpazo.supabase.co/rest/v1/outreach_logs?select=id&status=eq.sent&sent_at=gte.2026-08-31T00%3A00%3A00 "HTTP/2 200 OK"
+2026-08-31 07:06:26,159 INFO HTTP Request: GET https://nzzrpylddectbapxpazo.supabase.co/rest/v1/jobs?select=id%2Ctitle%2Ccompany%2Ccompany_domain%2Clocation%2Cdescription_raw%2Cats_score%2Capply_url%2Cmatched_keywords&status=in.%28matched%2Cauto_applied%29&ats_score=gte.70&order=ats_score.desc&limit=15 "HTTP/2 200 OK"
+2026-08-31 07:06:26,956 INFO HTTP Request: GET https://nzzrpylddectbapxpazo.supabase.co/rest/v1/linkedin_posts?select=%2A&status=in.%28scheduled%29&scheduled_for=lte.2026-08-31T01%3A36%3A26.443532%2B00%3A00 "HTTP/2 200 OK"
+2026-08-31 07:06:26,958 INFO Published 0 due posts
+2026-08-31 07:06:27,269 INFO HTTP Request: POST https://nzzrpylddectbapxpazo.supabase.co/rest/v1/daily_run_logs?on_conflict=run_date "HTTP/2 201 Created"
+2026-08-31 07:06:27,448 INFO HTTP Request: POST https://nzzrpylddectbapxpazo.supabase.co/rest/v1/daily_run_logs?on_conflict=run_date "HTTP/2 200 OK"
+2026-08-31 07:06:27,612 INFO HTTP Request: GET https://nzzrpylddectbapxpazo.supabase.co/rest/v1/daily_run_logs?select=%2A&run_date=eq.2026-08-31 "HTTP/2 200 OK"
+2026-08-31 07:06:27,780 INFO HTTP Request: GET https://nzzrpylddectbapxpazo.supabase.co/rest/v1/applications?select=%2A%2Cjobs%28title%2Ccompany%2Clocation%2Cats_score%29&applied_at=gte.2026-08-31T00%3A00%3A00&order=applied_at.desc&limit=5 "HTTP/2 200 OK"
+2026-08-31 07:06:27,943 INFO HTTP Request: GET https://nzzrpylddectbapxpazo.supabase.co/rest/v1/outreach_logs?select=%2A%2Crecruiters%28name%2Ccompany%29&status=eq.sent&sent_at=gte.2026-08-31T00%3A00%3A00 "HTTP/2 200 OK"
+2026-08-31 07:06:28,099 INFO HTTP Request: GET https://nzzrpylddectbapxpazo.supabase.co/rest/v1/jobs?select=title%2Ccompany%2Cats_score%2Capply_url&status=eq.matched&ats_score=gte.80&limit=5 "HTTP/2 200 OK"
+2026-08-31 07:06:28,708 ERROR   Telegram send failed: HTTP Error 404: Not Found
+2026-08-31 07:06:28,708 INFO 
+============================================================
+2026-08-31 07:06:28,718 INFO    Scraped: 0 | Matched: 0
+2026-08-31 07:06:28,718 INFO    Applied: 0 | Emailed: 0
+2026-08-31 07:06:28,718 INFO    Errors: 1
+2026-08-31 07:06:28,718 INFO ============================================================
+2026-08-31 17:51:32,948 INFO ============================================================
+2026-08-31 17:51:33,080 INFO ============================================================
+2026-08-31 17:51:39,873 INFO HTTP Request: GET https://nzzrpylddectbapxpazo.supabase.co/rest/v1/jobs?select=id%2Ctitle%2Ccompany%2Cdescription_raw&status=eq.scraped&description_raw=not.is.null&limit=50 "HTTP/2 200 OK"
+2026-08-31 17:51:40,147 INFO HTTP Request: GET https://nzzrpylddectbapxpazo.supabase.co/rest/v1/jobs?select=id%2Ctitle%2Ccompany%2Cats_score%2Capply_url%2Cplatform&status=eq.matched&ats_score=gte.75&order=ats_score.desc&limit=20 "HTTP/2 200 OK"
+2026-08-31 17:51:40,914 INFO HTTP Request: GET https://nzzrpylddectbapxpazo.supabase.co/rest/v1/outreach_logs?select=id&status=eq.sent&sent_at=gte.2026-08-31T00%3A00%3A00 "HTTP/2 200 OK"
+2026-08-31 17:51:41,077 INFO HTTP Request: GET https://nzzrpylddectbapxpazo.supabase.co/rest/v1/jobs?select=id%2Ctitle%2Ccompany%2Ccompany_domain%2Clocation%2Cdescription_raw%2Cats_score%2Capply_url%2Cmatched_keywords&status=in.%28matched%2Cauto_applied%29&ats_score=gte.70&order=ats_score.desc&limit=15 "HTTP/2 200 OK"
+2026-08-31 17:51:41,951 INFO HTTP Request: GET https://nzzrpylddectbapxpazo.supabase.co/rest/v1/linkedin_posts?select=%2A&status=in.%28scheduled%29&scheduled_for=lte.2026-08-31T12%3A21%3A41.380453%2B00%3A00 "HTTP/2 200 OK"
+2026-08-31 17:51:41,962 INFO Published 0 due posts
+2026-08-31 17:51:42,190 INFO HTTP Request: POST https://nzzrpylddectbapxpazo.supabase.co/rest/v1/daily_run_logs?on_conflict=run_date "HTTP/2 200 OK"
+2026-08-31 17:51:42,389 INFO HTTP Request: POST https://nzzrpylddectbapxpazo.supabase.co/rest/v1/daily_run_logs?on_conflict=run_date "HTTP/2 200 OK"
+2026-08-31 17:51:42,543 INFO HTTP Request: GET https://nzzrpylddectbapxpazo.supabase.co/rest/v1/daily_run_logs?select=%2A&run_date=eq.2026-08-31 "HTTP/2 200 OK"
+2026-08-31 17:51:42,738 INFO HTTP Request: GET https://nzzrpylddectbapxpazo.supabase.co/rest/v1/applications?select=%2A%2Cjobs%28title%2Ccompany%2Clocation%2Cats_score%29&applied_at=gte.2026-08-31T00%3A00%3A00&order=applied_at.desc&limit=5 "HTTP/2 200 OK"
+2026-08-31 17:51:42,896 INFO HTTP Request: GET https://nzzrpylddectbapxpazo.supabase.co/rest/v1/outreach_logs?select=%2A%2Crecruiters%28name%2Ccompany%29&status=eq.sent&sent_at=gte.2026-08-31T00%3A00%3A00 "HTTP/2 200 OK"
+2026-08-31 17:51:43,059 INFO HTTP Request: GET https://nzzrpylddectbapxpazo.supabase.co/rest/v1/jobs?select=title%2Ccompany%2Cats_score%2Capply_url&status=eq.matched&ats_score=gte.80&limit=5 "HTTP/2 200 OK"
+2026-08-31 17:51:43,681 ERROR   Telegram send failed: HTTP Error 404: Not Found
+2026-08-31 17:51:43,686 INFO 
+============================================================
+2026-08-31 17:51:43,688 INFO    Scraped: 0 | Matched: 0
+2026-08-31 17:51:43,688 INFO    Applied: 0 | Emailed: 0
+2026-08-31 17:51:43,688 INFO    Errors: 1
+2026-08-31 17:51:43,688 INFO ============================================================
